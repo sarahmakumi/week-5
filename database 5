@@ -1,0 +1,16 @@
+question 1: CREATE INDEX IdxTotalAmount ON bills(TotalAmount);
+CREATE INDEX totalAmount_index 
+ON bills(TotalAmount);
+
+
+question 2:
+DROP INDEX IdxEmail ON customer;
+
+
+question 3
+  CREATE USER 'bob'@'localhost' IDENTIFIED BY 'S$cu3r3!';
+
+question 4
+
+  GRANT INSERT ON bills.* TO 'bob'@'localhost';
+
